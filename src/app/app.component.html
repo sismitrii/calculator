@@ -1,0 +1,14 @@
+<main>
+  <h1>Calculator</h1>
+  <div id="calculator">
+    <section id="number-screen">
+      <p>1,265</p>
+    </section>
+    <section id="buttons">
+      <div class="wrapper">
+        <app-button *ngFor="let buttonValue of buttonValueList" 
+        [buttonValue]="buttonValue"></app-button>
+      </div>
+    </section>
+  </div>
+</main>
