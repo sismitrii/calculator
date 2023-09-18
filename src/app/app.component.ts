@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'calculator';
-  buttonValueList: String[] = [
+  buttonValueList: string[] = [
     "C",
     "±",
     "%",
